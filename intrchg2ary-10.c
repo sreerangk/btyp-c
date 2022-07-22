@@ -8,7 +8,6 @@ int main(){
         scanf("%d",&a[i]);
     }
     printf("enter the 2nd array");
-    
     for(i=1;i<=value;i++){
         scanf("%d",&ab[i]);
     }
