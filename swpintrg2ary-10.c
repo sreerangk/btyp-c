@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int a[100],ab[100],i,j,value,temp[100];
+    int a[100],ab[100],i,j,value,temp;
     printf("enter size of array");
     scanf("%d",&value);
     printf("enter the first array");
@@ -12,9 +12,9 @@ int main(){
         scanf("%d",&ab[i]);
     }
     for(i=1;i<=value;i++){
-        temp[i]=a[i];
+        temp=a[i];
         a[i]=ab[i];
-        ab[i]=temp[i];
+        ab[i]=temp;
     }
     printf("Array-1 :");
     for(i=1;i<=value;i++){
