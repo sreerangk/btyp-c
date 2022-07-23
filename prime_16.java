@@ -24,5 +24,6 @@ public class prime_16{
         else{
         System.out.println("its not prime number");
         }
+        sc.close();
    }  
 }  
