@@ -1,4 +1,6 @@
 #include<stdio.h>
+void getArray(int a[10],int s);
+void displayArray(int a[10],int s);
 
 int main(){
     int a[10],s;
