@@ -20,7 +20,7 @@ int main(){
     for(i=1;i<=value;i++){
         printf("%d,",a[i]);
     }
-    printf("Array-2 :");
+    printf("\nArray-2 :");
     for(i=1;i<=value;i++){
         printf("%d,",ab[i]);
 

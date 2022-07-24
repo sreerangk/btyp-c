@@ -2,10 +2,10 @@
 int main(){
     int number1;
     float number2,sum;
-    printf("enter a number");
+    printf("enter a number\n");
     scanf("%d",&number1);
-    printf("enter the second number");
+    printf("enter the second number\n");
     scanf("%f",&number2);
     sum=number1+number2;
-    printf("%f",sum);
+    printf("sum of number is:%f",sum);
 }
