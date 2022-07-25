@@ -1,15 +1,16 @@
 import java.util.Scanner;
 
 public class java_23{
+static Scanner sc = new Scanner(System.in);  
 public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);  
+        
         System.out.println("Enter size of array: ");  
         int limit = sc.nextInt();
         int array[][]=new int[10][10];
-        getArray(limit,array,sc);
-        displayArray(limit,array,sc);
+        getArray(limit,array);
+        displayArray(limit,array);
 }
-static void getArray(int a,int array[][],Scanner sc){
+static void getArray(int a,int array[][]){
     int i,j;
     System.out.println("Enter the value of Array :");
     for(i=0;i<a;i++){
@@ -19,7 +20,7 @@ static void getArray(int a,int array[][],Scanner sc){
     }
     
 }
-static void displayArray(int a,int array[][],Scanner sc){
+static void displayArray(int a,int array[][]){
     int i,j;
     System.out.println("Array elements are:");
     for(i=0;i<a;i++){
