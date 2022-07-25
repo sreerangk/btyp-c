@@ -5,11 +5,11 @@ int main(){
     scanf("%d",&limit);
     for(i=1;i<=limit;i++){
         for(j=1;j<=i*2;j++){
-            printf("*");
+            printf("%d",j);
         }
         printf("\n");
         for(j=1;j<=i*3;j++){
-            printf("*\n");
+            printf("%d\n",j);
         }
     }
 }
