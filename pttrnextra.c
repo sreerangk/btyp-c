@@ -7,12 +7,12 @@ int main(){
         for(j=i;j<=size;j++){
             printf(" ");
         }
-        for(k=1;k<=i;k++){
-            if(k==i){
+        for(j=1;j<=i;j++){
+            if(i==1||i==j){
                 printf(" 1");
             }
             else
-            printf(" %d",k);
+            printf(" %d",j);
         }
         printf("\n");
     }
