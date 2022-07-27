@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int i,j,n,l,k,a[100];
+    int i,j,n=0,c=0,l,k,a[100],h;
     printf("enter the limit of array ");
     scanf("%d",&l);
     printf("enter the valuse");
@@ -11,6 +11,8 @@ int main(){
         for(j=i+1;j<=l;j++){
              // use if statement to check duplicate element
             if(a[i]==a[j]){
+                n++;
+                
                  // delete the current position of the duplicate element
                 for(k=j;k<=l;k++){
                     a[k]=a[k+1];
@@ -24,6 +26,8 @@ int main(){
         }
     } 
     for(i=1;i<=l;i++){
-        printf("%d",a[i]);
+        printf("after delete element: %d",a[i]);
     }
+    printf("\nduplicat number is : %d",n);
+
 }
