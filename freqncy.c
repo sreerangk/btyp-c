@@ -1,23 +1,19 @@
 #include <stdio.h>
-
 int main()
 {
 int arr[100], freq[100];
 int size, i, j, count=1;
 freq[i] = -1;
-
 printf("Enter size of array: ");
 scanf("%d", &size);
-
-
 printf("Enter elements in array: ");
 for(i=0; i<size; i++)
 {
 scanf("%d", &arr[i]);
-
 }
 for(i=0; i<size; i++)
 {
+
 for(j=i+1; j<size; j++)
 {
 if(arr[i]==arr[j])
