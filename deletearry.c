@@ -12,6 +12,7 @@ int main(){
              // use if statement to check duplicate element
             if(a[i]==a[j]){
                  // delete the current position of the duplicate element
+                 
                 for(k=j;k<=l;k++){
                     a[k]=a[k+1];
                 }
