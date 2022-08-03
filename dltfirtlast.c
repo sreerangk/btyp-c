@@ -20,7 +20,7 @@ int main(){
 
                 l--;
                 // if the position of the elements is changz 
-                j--;
+               k--;
             
         }
     } 
